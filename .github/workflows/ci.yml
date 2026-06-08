@@ -23,9 +23,9 @@ jobs:
           cache: 'npm'
       - run: npm ci
       # TODO: lancer le lint
-      - run: ____
+      - run: ____ npm run lint
 
-  test: ____ # TODO: lancer les tests, seulement si le lint a réussi
+  #test: ____ # TODO: lancer les tests, seulement si le lint a réussi
 
   build:
     runs-on: ubuntu-latest
